@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino Otimizado - 107kg | 1,97m</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <!-- CABEÇALHO com botão de tema -->
+    <div class="header">
+        <div>
+            <h1>
+                🏋️ TREINO OTIMIZADO
+                <span>107kg | 1,97m | 19 anos</span>
+            </h1>
+            <div class="sub">📅 Ciclo de 5 dias</div>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+    </div>
+
+    <div class="info-row">
+        <span><strong>Objetivo:</strong> Hipertrofia + Força (Upper/Lower 2x)</span>
+        <span><strong>Duração:</strong> ~50 min por dia</span>
+        <span><strong>⏰ Descanso:</strong> 60-90 seg entre séries</span>
+    </div>
+
+    <!-- AQUECIMENTO -->
+    <div class="warmup-box">
+        <h2>🔥 AQUECIMENTO (5 min) - ESSENCIAL PARA 1,97m</h2>
+        <ul>
+            <li>5 min esteira / bicicleta (leve)</li>
+            <li>Rotação de ombros (para frente/trás)</li>
+            <li>Mobilidade de quadril (elevação de joelho)</li>
+            <li>Agachamento sem peso (15 reps)</li>
+        </ul>
+    </div>
+
+    <!-- VÍDEO -->
+    <div class="video-box">
+        <h2>📺 VÍDEO EXPLICATIVO - EXECUÇÃO CORRETA</h2>
+        <p>Assista ao vídeo abaixo para aprender a técnica dos exercícios principais.</p>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed?listType=search&list=execução+correta+leg+press+agachamento+supino+remada+baixa" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <div class="video-tip">
+            <strong>⛰️ Dica para você (1,97m):</strong> Nos exercícios de agachamento e leg press, NÃO desça até o fundo se sentir dor no quadril. O ideal é descer até formar 90° ou até sentir o quadril "travando". Use a <strong>elevação dos pés</strong> (calcanhar em uma anilha) no agachamento Smith para compensar suas pernas longas.
+        </div>
+    </div>
+
+    <!-- GRADE DE TREINOS -->
+    <div class="grid">
+
+        <!-- SEGUNDA -->
+        <div class="day-card" data-day="segunda">
+            <div class="day-header">
+                <span class="day-name">🔴 SEGUNDA</span>
+                <span class="day-focus">SUPERIOR A (FORÇA)</span>
+            </div>
+            <table class="ex-table">
+                <tr><th>Exercício</th><th>Séries</th><th>Carga (kg)</th><th>✔</th></tr>
+                <tr data-exid="segunda-supino">
+                    <td class="ex-name">Supino Máquina Inclinado <small>(pegada pronada)</small></td>
+                    <td class="sets">4x 10-12</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="20" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="segunda-crucifixo">
+                    <td class="ex-name">Crucifixo Máquina</td>
+                    <td class="sets">3x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="segunda-puxada">
+                    <td class="ex-name">Puxada Aberta Barra Reta</td>
+                    <td class="sets">4x 10-12</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="25" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="segunda-remada">
+                    <td class="ex-name">Remada Cavalinho <small>(pegada neutra)</small></td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="segunda-lateral">
+                    <td class="ex-name"><strong>Elevação Lateral</strong> (halteres)</td>
+                    <td class="sets">3x 15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="segunda-triceps">
+                    <td class="ex-name">Tríceps na Polia com Corda</td>
+                    <td class="sets">3x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="25" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+            </table>
+            <div class="note">💡 Foco em carga alta. Se fizer 12 reps com boa forma, <strong>sobe 2.5kg</strong> na semana seguinte.</div>
+        </div>
+
+        <!-- TERÇA -->
+        <div class="day-card" data-day="terca">
+            <div class="day-header">
+                <span class="day-name">🟢 TERÇA</span>
+                <span class="day-focus leg">INFERIOR A (QUADRÍCEPS)</span>
+            </div>
+            <table class="ex-table">
+                <tr><th>Exercício</th><th>Séries</th><th>Carga (kg)</th><th>✔</th></tr>
+                <tr data-exid="terca-agachamento">
+                    <td class="ex-name">Agachamento Smith</td>
+                    <td class="sets">4x 10-12</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="10" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="terca-legpress">
+                    <td class="ex-name">Leg Press 45° <small>(pés afastados)</small></td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="100" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="terca-extensora">
+                    <td class="ex-name">Cadeira Extensora</td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="50" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="terca-quadril">
+                    <td class="ex-name">Elevação de Quadril na Máquina</td>
+                    <td class="sets">3x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="terca-panturrilha">
+                    <td class="ex-name">Panturrilha Hack</td>
+                    <td class="sets">4x 15-20</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="30" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+            </table>
+            <div class="note">🦵 <strong>Dia de CARBO UP!</strong> Aumente o arroz e a banana no almoço/pré-treino. Beba 1L de água durante o treino.</div>
+        </div>
+
+        <!-- QUARTA -->
+        <div class="day-card" data-day="quarta">
+            <div class="day-header">
+                <span class="day-name">🔵 QUARTA</span>
+                <span class="day-focus">SUPERIOR B (DORSAL/OMBRO)</span>
+            </div>
+            <table class="ex-table">
+                <tr><th>Exercício</th><th>Séries</th><th>Carga (kg)</th><th>✔</th></tr>
+                <tr data-exid="quarta-desenvolvimento">
+                    <td class="ex-name">Desenvolvimento com Halteres Sentado</td>
+                    <td class="sets">4x 10-12</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quarta-remada">
+                    <td class="ex-name">Remada Baixa Triângulo</td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="25" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quarta-crucifixo-inverso">
+                    <td class="ex-name">Crucifixo Inverso Máquina <small>(posterior)</small></td>
+                    <td class="sets">3x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quarta-rosca">
+                    <td class="ex-name">Rosca Scott Máquina</td>
+                    <td class="sets">3x 10-12</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="15" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quarta-triceps-frances">
+                    <td class="ex-name">Tríceps Francês Sentado (halteres)</td>
+                    <td class="sets">3x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quarta-encolhimento">
+                    <td class="ex-name">Encolhimento de Ombros (halteres)</td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+            </table>
+            <div class="note">📏 Cadência lenta: 2 seg descendo, 2 subindo. Isso aumenta o tempo sob tensão para seus músculos longos.</div>
+        </div>
+
+        <!-- QUINTA -->
+        <div class="day-card" data-day="quinta">
+            <div class="day-header">
+                <span class="day-name">🟡 QUINTA</span>
+                <span class="day-focus leg">INFERIOR B (POSTERIOR/CORE)</span>
+            </div>
+            <table class="ex-table">
+                <tr><th>Exercício</th><th>Séries</th><th>Carga (kg)</th><th>✔</th></tr>
+                <tr data-exid="quinta-legpress">
+                    <td class="ex-name">Leg Press 45° <small>(pés afastados)</small></td>
+                    <td class="sets">4x 15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="100" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quinta-flexora">
+                    <td class="ex-name">Cadeira Flexora</td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="60" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quinta-abducao">
+                    <td class="ex-name">Abdução de Quadril Máquina</td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="40" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quinta-panturrilha-pe">
+                    <td class="ex-name">Panturrilha em Pé (ou Smith)</td>
+                    <td class="sets">4x 15-20</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="quinta-prancha">
+                    <td class="ex-name"><strong>Prancha Abdominal</strong></td>
+                    <td class="sets">3x 45s</td>
+                    <td class="load">—</td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+            </table>
+            <div class="note">🧘 Prancha protege sua coluna lombar no Leg Press. Mantenha o abdômen contraído em todos os exercícios.</div>
+        </div>
+
+        <!-- SEXTA -->
+        <div class="day-card arm-day" data-day="sexta">
+            <div class="day-header">
+                <span class="day-name">🟣 SEXTA</span>
+                <span class="day-focus arm">BRAÇOS + PONTOS FRACOS</span>
+            </div>
+            <table class="ex-table">
+                <tr><th>Exercício</th><th>Séries</th><th>Carga (kg)</th><th>✔</th></tr>
+                <tr data-exid="sexta-rosca-w">
+                    <td class="ex-name">Rosca Direta Barra W</td>
+                    <td class="sets">4x 10-12</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="sexta-rosca-martelo">
+                    <td class="ex-name">Rosca Martelo Sentado Alternado</td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="sexta-triceps-polia">
+                    <td class="ex-name">Tríceps na Polia Barra W</td>
+                    <td class="sets">4x 12-15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="20" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="sexta-elevacao-frontal">
+                    <td class="ex-name">Elevação Frontal Alternada</td>
+                    <td class="sets">3x 15</td>
+                    <td class="load"><input type="number" step="2.5" min="0" value="0" data-type="load"></td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+                <tr data-exid="sexta-esteira">
+                    <td class="ex-name">Esteira Inclinada <small>(cardio leve)</small></td>
+                    <td class="sets">15 min</td>
+                    <td class="load">—</td>
+                    <td class="check"><input type="checkbox" data-type="check"></td>
+                </tr>
+            </table>
+            <div class="note">🎯 Dia de "bombar" os braços. A Elevação Frontal veio para cá para não roubar estímulo do ombro no meio da semana.</div>
+        </div>
+
+        <!-- FDS -->
+        <div class="day-card rest" data-day="sabado">
+            <div class="day-header">
+                <span class="day-name">⚪ SÁBADO</span>
+                <span class="day-focus" style="background:#2a9d8f;">DESCANSO ATIVO</span>
+            </div>
+            <p style="font-size:15px; color:#2d3436; padding: 10px 0;">
+                🚶 Caminhada leve (30 min), alongamento ou mobilidade.<br>
+                <span style="font-size:14px; color:#555;">Refeições com menos carboidrato (reduza arroz/batata).</span>
+            </p>
+        </div>
+
+        <div class="day-card rest" data-day="domingo">
+            <div class="day-header">
+                <span class="day-name">⚪ DOMINGO</span>
+                <span class="day-focus" style="background:#2a9d8f;">DESCANSO TOTAL</span>
+            </div>
+            <p style="font-size:15px; color:#2d3436; padding: 10px 0;">
+                😴 Durma pelo menos 8 horas.<br>
+                <span style="font-size:14px; color:#555;">Priorize proteínas e vegetais. Nada de treino pesado.</span>
+            </p>
+        </div>
+    </div> <!-- Fim Grid -->
+
+    <!-- REGRA DE PROGRESSÃO -->
+    <div class="progression-box">
+        <h3>📈 REGRA DA PROGRESSÃO (Obrigatória)</h3>
+        <ul>
+            <li><strong>Leg Press:</strong> Se fez 4x12 com 100kg limpo, suba para <strong>105kg</strong>.</li>
+            <li><strong>Puxada/Remada:</strong> Se fez 4x12 com 25kg, suba para <strong>27,5kg ou 30kg</strong>.</li>
+            <li><strong>Extensora/Flexora:</strong> Se fez 4x15 com 50kg, suba para <strong>55kg</strong>.</li>
+            <li><strong>Exercícios com 0kg (Crucifixo, Lateral, etc):</strong> Não coloque carga só por colocar. Foque em <strong>cadência lenta (3s subindo, 3s descendo)</strong> e pausa de 1s no pico.</li>
+        </ul>
+    </div>
+
+    <!-- SUBSTITUIÇÃO OBRIGATÓRIA -->
+    <div style="margin-top: 18px; background: #fee2e2; padding: 14px 20px; border-radius: 12px; border-left: 6px solid #dc2626;">
+        <p style="font-weight: 700; color: #991b1b;">⛔ EXCLUÍDO DO TREINO: Remada Alta com Barra W</p>
+        <p style="color: #4a1a1a; font-size: 14px;">Para sua altura (1,97m), esse movimento comprime o manguito rotador. Mantenha apenas o <strong>Encolhimento de Ombros</strong> para trapézio.</p>
+    </div>
+
+    <div class="footer-print">
+        💪 Com 19 anos, testo alta e recuperação rápida. Aplicando essa divisão 2x por semana, em 8 semanas você dobra as cargas! Bora treinar pesado!
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
